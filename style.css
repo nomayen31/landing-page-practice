@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto','Montserrat', sans-serif;
+    margin: 0;
+    background-color: rgb(218, 213, 213);
+}
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+span{
+    color:chocolate;
+}
+#top{
+    margin-bottom: 50px;
+}
+.top-section{
+    display: flex;
+    margin: 30px;
+    padding: 2%;
+}
+
+.half-with{
+    width: 50%;
+
+}
+.half-with p{
+    text-transform: capitalize;
+    text-align: justify;
+    padding-bottom: 20px;
+    line-height: 25px;
+  
+}
+.half-with img{
+    width: 80%;
+}
+.button{
+
+    text-decoration: none;
+    background-image: linear-gradient(rgb(222, 122, 88), rgb(187, 118, 23));
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.Recipies h2{
+    text-align: center;
+}
+.Recipies p{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+
+.secound-section{
+    display: flex;
+    height: auto;
+    background-image: url(/7.png);
+    background-size: cover;
+    opacity: 100%;
+}
+
+.secound-with{
+    width: 50%;
+}
+ .secound-with img{
+    height: 400px;
+    padding-left: 130px;
+   
+} 
+
+.secound-section{
+    display: flex;
+    margin: 30px;
+   padding: 2%;
+}
+
+
+
+
+
+div.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+div.card{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px 5px gray ;
+    margin-left: 20px;
+}
+div.card img{
+    width: 100%;
+    border-radius:20px;
+} 
+
+.row{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: 2px solid red;
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+.image-1{
+    box-shadow: gray;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    margin: 40px;
+    border-radius: 25px;
+}
+.image-div1{
+    padding-left: 20px;  
+}
+
+.image-div2{
+    padding-left: 350px;  
+}
+.image-div3{
+    padding-left: 350px;  
+}
+
+
+.footer{
+    padding: 20px 0px 20px 0px;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
